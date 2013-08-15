@@ -1,0 +1,8 @@
+*.pdf
+*.dvi
+*.out
+*.log
+*.aux
+*.bak
+contact.tex
+contact_pt.tex
