@@ -1,0 +1,292 @@
+ \documentclass[a4paper,english]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{babel}
+\usepackage[T1]{fontenc}
+\pagestyle{empty}
+\usepackage{graphicx}
+
+\usepackage[pdftex,
+            colorlinks=true,
+            pdfstartview=FitV,
+            linkcolor=blue,
+            citecolor=blue,
+            urlcolor=blue,]{hyperref}
+\hypersetup{pdfauthor = {Hugo Peres Castilho},
+            pdftitle = {Curriculum Vitae},
+            pdfsubject = {Hugo Peres Castilho},
+            pdfkeywords = {CV, Curriculum Vitae, Hugo Castilho, Hugo P.
+Castilho, Hugo Castilho}}
+
+\newcommand{\nome}[1]{
+\hspace{-7mm}{\huge \textbf{ #1}} \vspace{-1.6mm}\\
+\rule{\columnwidth}{.5mm} \vspace{-7.7mm}\\
+\rule{\columnwidth}{.25mm}
+}
+
+\newcommand{\topic}[1]{
+\section*{#1} \vspace{-6mm}
+\rule{\columnwidth}{.25mm}
+}
+
+\begin{document}
+
+\nome{Hugo Peres Castilho}
+\begin{flushright}
+    \begin{tabular}{lcl}
+        \input{contact.tex}
+    \end{tabular}
+\end{flushright}
+
+\topic{Education}
+\begin{itemize}
+\setlength{\itemsep}{-1mm}
+    \item[] Physics Engineering
+    \item[] Instituto Superior Técnico, Lisboa -- Portugal
+    \item[] 1999--2001
+\end{itemize}
+\begin{itemize}
+\setlength{\itemsep}{-1mm}
+    \item[] Mechanical Engineering
+    \item[] Robotics and Automation Branch
+    \item[] Instituto Superior Técnico, Lisboa -- Portugal
+    \item[] Finished on Nov/2006
+\end{itemize}
+
+\topic{Professional Background}
+\section*{INETI}
+    \begin{tabular}{l}
+        Instituto Nacional de Engenharia, Tecnologia e Inovação \\
+        Sep/2005--May/2007 \\
+        www.ineti.pt \\
+        \\
+        Industry focused research and development \\
+    \end{tabular}
+    \subsubsection*{CLIMA}
+        Real-time automated fabric defect detection
+        \begin{itemize}
+        \setlength{\itemsep}{-1mm}
+            \item[] Fabric image capture using back light and linear cameras
+            \item[] Image acquisition and processing software in C++
+            \item[] Algorithm training in MATLAB
+            \item[] Omron PLC automation system
+            \item[] Simple feature extraction for real-time
+            \item[] Neural networks, FFT, fuzzy systems, clustering
+        \end{itemize}
+    \subsubsection*{Part tolerance control}
+        3D laser inspection of piston segments
+        \begin{itemize}
+        \setlength{\itemsep}{-1mm}
+            \item[] Laser stripe part profiling
+            \item[] Image acquisition and processing software in C++
+            \item[] Omron PLC automation system
+        \end{itemize}
+    \vspace{0.5cm}
+\section*{Robosavvy}
+    \begin{tabular}{l}
+        Mar/2007--Dec/2007 \\
+        www.robosavvy.com \\
+        www.ezphysics.org \\
+        \\
+        Humanoid robotics physics simulation platform \\
+    \end{tabular}
+    \begin{itemize}
+    \setlength{\itemsep}{-1mm}
+        \item[] C++ programming
+        \item[] Rigid body dynamics using ODE physics simulation framework
+        \item[] Ogre 3D graphics engine
+    \end{itemize}
+    \vspace{0.5cm}
+\section*{Rose Real Estate}
+    \begin{tabular}{l}
+        Aug/2007--Jan/2009 \\
+        rrr.pt \\
+        \\
+        Website development and maintenance \\
+    \end{tabular}
+    \begin{itemize}
+    \setlength{\itemsep}{-1mm}
+        \item[] HTML, CSS, Javascript
+        \item[] Django -- Python web development framework
+        \item[] MySQL
+        \item[] Apache Webserver
+    \end{itemize}
+    \vspace{0.5cm}
+\section*{CERN}
+    \begin{tabular}{l}
+        European Organization for Nuclear Research \\
+        Dec/2007--Nov/2008 \\
+        www.cern.ch \\
+        \\
+        Software development, research \\
+    \end{tabular}
+    \subsubsection*{FPIAA--Finding People in Atlas Areas}
+    \begin{tabular}{l}
+        Personnel tracking system for critical ATLAS areas \\
+    \end{tabular}
+    \begin{itemize}
+    \setlength{\itemsep}{-1mm}
+        \item[] Distributed PIR (passive infrared sensor) grid
+        \item[] PVSS (SCADA) programming for PIR interface
+        \item[] Small team coordination
+    \end{itemize}
+    \subsubsection*{ATLAS DCS (Detector Control Systems) Web Monitoring Interface}
+    \begin{tabular}{l}
+        ATLAS detector web monitoring system \\
+    \end{tabular}
+    \begin{itemize}
+    \setlength{\itemsep}{-1mm}
+        \item[] PVSS (SCADA) programming to obtain and display collected information for ATLAS components
+        \item[] Python scripting for monitoring information update
+    \end{itemize}
+    \vspace{0.5cm}
+\section*{Infolau}
+    \begin{tabular}{l}
+        Nov/2008--Dec/2012 \\
+        www.infolau.com \\
+        \\
+        Banking IT consultancy \\
+    \end{tabular}
+    \subsubsection*{Crédito Agricola}
+    \begin{itemize}
+    \setlength{\itemsep}{-1mm}
+        \item[] Credit card back-end development and maintenance
+        \item[] MUMPS/PROFILE programming
+    \end{itemize}
+
+\topic{Publications}
+\begin{itemize}
+    \item[] Hugo P. Castilho, João R. C. Pinto, António L. Serafim, "NN
+Automated Defect Detection Based on Optimized Thresholding", ICIAR 2006 -
+Intern. Conf. on Image Analysis and Recognition 2006, Póvoa
+de Varzim, Portugal; Lecture Notes in Computer Science, Springer Verlag,
+LNCS 41423, Vol.2, pp. 790-801.
+    \item[] Hugo P. Castilho, Paulo J. S. Gonçalves, João R. C. Pinto, António
+L. Serafim, "Intelligent Real-Time Fabric Defect Detection", ICIAR
+2007, Montreal, Canada; Lecture Notes in Computer Science, Springer Verlag,
+LNCS 4633, pp. 1309-1319.
+    \item[] Hugo P. Castilho, António L. Serafim, João R. C. Pinto, "Automated
+fabric defect detection: A real-time NN approach" , Publication Lisboa: INETI - 
+Memoirs, 2006/2007, 2007.
+\end{itemize}
+
+\topic{Programming Languages}
+\begin{itemize}
+\setlength{\itemsep}{-1mm}
+    \item C/C++
+    \item Python
+    \item C\#
+    \item Java
+    \item MATLAB
+    \item Fortran
+    \item PVSS (SCADA)
+    \item MUMPS/PSL PROFILE
+\end{itemize}
+
+\topic{Application/Framework Experience}
+\begin{itemize}
+\setlength{\itemsep}{-1mm}
+    \item Windows and Linux
+    \item Version Control: Subversion, CVS and git
+    \item Mathematica
+    \item Latex
+    \item Simulink
+    \item Solid Works
+    \item ANSYS
+    \item SQL
+    \item HTML/CSS
+    \item Django--Web development framework
+    \item MIL--Matrox frame grabber library
+    \item Pygame--Game development python framework
+    \item Box2D--2D physics engine
+    \item cwiid--Wiimote library
+    %\item openframeworks
+    %\item OpenCV--Computer vision library
+\end{itemize}
+
+\topic{Languages}
+
+\begin{tabular}{llll}
+Language & Understanding & Speaking & Writing \\
+\hline
+Portuguese & Advanced & Advanced & Advanced \\
+English & Advanced & Advanced & Advanced \\
+%French & Medium & Basic & Very Basic \\
+%Spanish & Medium & Basic & None \\
+\end{tabular}
+
+\topic{Academic/Hobby Projects}
+\begin{itemize}
+    \setlength{\itemsep}{-1mm}
+    \item[] {\bf Real-Time fabric defect detection (thesis):}\\ \vspace{-7mm}
+    \begin{itemize}
+        \setlength{\itemsep}{-1mm}
+        \item[] Neural networks, fuzzy systems and inference, clustering
+        \item[] Online image acquisition and processing
+        \item[] C++, MATLAB, MIL
+    \end{itemize}
+
+    \item[] {\bf Distributed optimization platform for supply chain management:}\\ \vspace{-7mm}
+    \begin{itemize}
+        \setlength{\itemsep}{-1mm}
+        \item Ant colony optimization
+        \item Java, MATLAB, Java/MATLAB integration, TCP/IP server/client platform
+    \end{itemize}
+
+    \item[] {\bf Setup time optimization for cell-based shop floor:}\\ \vspace{-7mm}
+    \begin{itemize}
+    \setlength{\itemsep}{-1mm}
+        \item Ant colony optimization
+        \item MatLab
+    \end{itemize}
+
+    \item[] {\bf Production line management and control:}\\ \vspace{-7mm}
+    \begin{itemize}
+    \setlength{\itemsep}{-1mm}
+        \item UDP and TCP communication platform
+        \item Production line management and control language
+        \item C\#
+    \end{itemize}
+
+    \item[] {\bf Target tracking and visual servoing:}\\ \vspace{-7mm}
+    \begin{itemize}
+        \setlength{\itemsep}{-1mm}
+        \item C++, MIL
+    \end{itemize}
+
+    \item[] {\bf PLC Programing:}\\ \vspace{-7mm}
+    \begin{itemize}
+        \setlength{\itemsep}{-1mm}
+        \item PCD (SAIA Burgess) and Zelio Logic (Schneider Electric) PLCs
+        \item Instruction language, grafcet and ladder logic
+    \end{itemize}
+
+    \item[] {\bf ACL Robot simulation and programming:}\\ \vspace{-7mm}
+    \begin{itemize}
+    \setlength{\itemsep}{-1mm}
+        \item VRML model simulation and ACL language interpreter
+        \item ACL serial communication with real robot
+    \end{itemize}
+
+    \item[] {\bf Hydroponics culture system:}\\ \vspace{-7mm}
+    \begin{itemize}
+    \setlength{\itemsep}{-1mm}
+        \item DIY construction
+        \item Custom relay circuit for starting/stopping the pump
+    \end{itemize}
+
+    \item[] {\bf Python Wiimote game:}\\ \vspace{-7mm}
+    \begin{itemize}
+    \setlength{\itemsep}{-1mm}
+        \item Pygame, python-box2d, cwiid
+    \end{itemize}
+
+    \item[] {\bf Btrfs raid server:}\\ \vspace{-7mm}
+    \begin{itemize}
+    \setlength{\itemsep}{-1mm}
+        \item Btrfs filesystem in raid10
+        \item Eight 2 TB hard drive array
+    \end{itemize}
+\end{itemize}
+
+\end{document}
